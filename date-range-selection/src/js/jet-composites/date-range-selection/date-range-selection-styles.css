@@ -1,0 +1,8 @@
+date-range-selection:not(.oj-complete){
+  visibility: hidden;
+}
+
+date-range-selection{
+	min-height: 50px;
+	width: 50px;
+}
