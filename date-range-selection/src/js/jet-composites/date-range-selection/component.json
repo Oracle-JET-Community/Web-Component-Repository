@@ -5,15 +5,16 @@
   "displayName": "A user friendly, translatable name of the component.",
   "description": "A translatable high-level description for the component.",
   "properties": {
-
+    "dateRangeFrom": {
+      "description": "The Id's date range from",
+      "type": "string"
+    },
+    "dateRangeTo": {
+      "description": "The Id's date range to",
+      "type": "string"
+    }
   },
-  "methods": {
-
-  }, 
-  "events": {
-
-  }, 
-  "slots": {
-
-  }
+  "methods": {},
+  "events": {},
+  "slots": {}
 }

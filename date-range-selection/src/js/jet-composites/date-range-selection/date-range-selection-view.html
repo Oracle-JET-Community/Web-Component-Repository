@@ -1,5 +1,16 @@
 <!--
+@author Hamed Roknizadeh
+@email hamedoracle@gmail.com
+@create date 2019-12-17 18:15:52
+@modify date 2019-12-17 18:15:52
+-->
+<!--
   Copyright (c) 2015, 2019, Oracle and/or its affiliates.
   The Universal Permissive License (UPL), Version 1.0
 -->
-<p><oj-bind-text value="[[messageText]]"></oj-bind-text></p>
+
+<oj-label :for="[[$properties.dateRangeFrom]]">From</oj-label>
+<oj-input-date :id="[[$properties.dateRangeFrom]]" value={{from}} max="[[to]]"></oj-input-date>
+
+<oj-label :for="[[$properties.dateRangeTo]]">To</oj-label>
+<oj-input-date :id="[[$properties.dateRangeTo]]" value={{to}} min="[[from]]"></oj-input-date>
