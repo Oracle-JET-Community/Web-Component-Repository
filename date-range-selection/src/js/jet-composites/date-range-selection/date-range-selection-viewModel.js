@@ -25,7 +25,6 @@ define(
       self.composite = context.element;
 
       //Example observable
-      self.messageText = ko.observable('Hello from Example Component');
       self.from = ko.observable();
       self.to = ko.observable();
       self.properties = context.properties;

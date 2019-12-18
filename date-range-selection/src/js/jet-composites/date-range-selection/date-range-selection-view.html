@@ -4,13 +4,14 @@
 @create date 2019-12-17 18:15:52
 @modify date 2019-12-17 18:15:52
 -->
-<!--
-  Copyright (c) 2015, 2019, Oracle and/or its affiliates.
-  The Universal Permissive License (UPL), Version 1.0
--->
+<div class="oj-flex">
+  <div class="oj-flex oj-sm-flex-direction-column oj-flex-item">
+    <oj-label :for="[[$properties.dateRangeFrom]]" class="oj-flex-item">From</oj-label>
+    <oj-input-date :id="[[$properties.dateRangeFrom]]" value={{from}} max="[[to]]" class="oj-flex-item"></oj-input-date>
+  </div>
 
-<oj-label :for="[[$properties.dateRangeFrom]]">From</oj-label>
-<oj-input-date :id="[[$properties.dateRangeFrom]]" value={{from}} max="[[to]]"></oj-input-date>
-
-<oj-label :for="[[$properties.dateRangeTo]]">To</oj-label>
-<oj-input-date :id="[[$properties.dateRangeTo]]" value={{to}} min="[[from]]"></oj-input-date>
+  <div class="oj-flex oj-sm-flex-direction-column oj-flex-item">
+    <oj-label :for="[[$properties.dateRangeTo]]" class="oj-flex-item">To</oj-label>
+    <oj-input-date :id="[[$properties.dateRangeTo]]" value={{to}} min="[[from]]" class="oj-flex-item"></oj-input-date>
+  </div>
+</div>
