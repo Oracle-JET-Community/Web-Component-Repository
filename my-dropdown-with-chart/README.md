@@ -3,3 +3,5 @@
 ## Usage
 
 &lt;my-dropdown-with-chart&gt;&lt;/my-dropdown-with-chart&gt;
+
+<img src="../images/my-dropdown-with-chart.png"/>
