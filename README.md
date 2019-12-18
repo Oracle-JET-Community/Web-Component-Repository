@@ -2,6 +2,8 @@
 
 General repository for Oracle JET community members to share Web Components with each other.
 
+Easy URL to get here: bit.ly/give-me-my-jet-web-components
+
 ## Components
 
    * date-range-selection
