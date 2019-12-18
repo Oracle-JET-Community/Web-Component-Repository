@@ -10,4 +10,4 @@ General repository for Oracle JET community members to share Web Components with
 ## Contributors
 
   * Program Director and Owner: Hamed Roknizadeh (IT-P GmbH)
-  * Product Advisors and Co-Owner: Geertjan Wielenga (Senior Principal Product Manager @Oracle)
+  * Program Advisor and Co-Owner: Geertjan Wielenga (Senior Principal Product Manager @Oracle)
