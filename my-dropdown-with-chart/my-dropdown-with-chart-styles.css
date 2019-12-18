@@ -1,0 +1,8 @@
+my-dropdown-with-chart:not(.oj-complete){
+  visibility: hidden;
+}
+
+my-dropdown-with-chart{
+	min-height: 50px;
+	width: 50px;
+}
