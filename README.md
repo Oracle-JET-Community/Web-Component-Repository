@@ -6,8 +6,8 @@ Easy URL to get here: [bit.ly/give-me-my-jet-web-components](http://bit.ly/give-
 
 ## Components
 
-   * date-range-selection
-   * my-dropdown-with-chart
+   * [date-range-selection](https://github.com/Oracle-JET-Community/Web-Component-Repository/tree/master/date-range-selection)
+   * [my-dropdown-with-chart](https://github.com/Oracle-JET-Community/Web-Component-Repository/tree/master/my-dropdown-with-chart)
 
 ## Contributors
 
