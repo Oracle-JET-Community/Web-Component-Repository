@@ -1,0 +1,8 @@
+my-pasta-chat:not(.oj-complete){
+  visibility: hidden;
+}
+
+my-pasta-chat{
+	min-height: 50px;
+	width: 50px;
+}
