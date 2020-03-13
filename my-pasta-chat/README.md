@@ -1,5 +1,7 @@
 # ojet component template
 
 ## Usage
-Refer to the oj.Composite jsdoc
-http://www.oracle.com/webfolder/technetwork/jet/jsdocs/oj.Composite.html
+
+Same as this, except in a Web Component, named "my-pasta-chat":
+
+https://www.youtube.com/watch?v=1tmzmhK6wNA
