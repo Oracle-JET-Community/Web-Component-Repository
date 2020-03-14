@@ -12,26 +12,9 @@ https://app.compendium.com/api/post_attachments/c5cd8c6b-e5d9-4450-98a2-24b341ae
 
 ## Environment Requirements
 
-The Oracle Web SDK ('web-sdk.js') needs to be installed by the application -- and is referenced as 'odaweb' in the define block of the ViewModel of the Web Component.
+'./utilities/web-sdk',
 
-As described in the background references above, create a node module, and in path_mapping.json add the following:
-
-```javascript
-"odaweb": {
-  "cdn": "3rdparty",
-  "cwd": "node_modules/websdknode",
-  "debug": {
-    "src":  ["web-sdk.js"],
-    "path": "libs/websdknode/web-sdk.js",
-    "cdnPath": ""
-  },
-  "release": {
-    "src": ["web-sdk.js"],
-    "path": "libs/websdknode/web-sdk.js",
-    "cdnPath": ""
-  }
-}
-```
+The above is all that's needed, in the define block of the ViewModel, to load the web-sdk.js.
 
 Note: The 'web-sdk.js' is found in the utilities folder of this Web Component.
 
