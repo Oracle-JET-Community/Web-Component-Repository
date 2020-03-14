@@ -1,4 +1,4 @@
-# ojet component template
+# my-pasta-chat
 
 ## Background
 
