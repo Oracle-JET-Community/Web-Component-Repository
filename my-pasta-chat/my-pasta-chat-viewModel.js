@@ -7,7 +7,7 @@ define(
         ['knockout', 
          'ojL10n!./resources/nls/my-pasta-chat-strings', 
          'ojs/ojcontext', 
-         'odaweb',
+         './utilities/web-sdk',
          'ojs/ojknockout'],
         function (ko, componentStrings, Context, odaweb) {
 
