@@ -37,7 +37,10 @@ Note: The 'web-sdk.js' is found in the utilities folder of this Web Component.
 
 ## Usage
 
-In appController.js, add this to the end of the define block:
+1. Download the content of my-pasta-chat into a folder 'src/js/jet-composites/my-pasta-chat'.
+
+2. In appController.js, add this to the end of the define block:
 
 'my-pasta-chat/loader'
 
+3. Run ojet serve and you will find the chat is available throughout the application.
