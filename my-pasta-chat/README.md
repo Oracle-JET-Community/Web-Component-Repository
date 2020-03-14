@@ -2,7 +2,7 @@
 
 ## Background
 
-Watch this:
+Watch this (it takes two minutes):
 
 https://www.youtube.com/watch?v=1tmzmhK6wNA
 
