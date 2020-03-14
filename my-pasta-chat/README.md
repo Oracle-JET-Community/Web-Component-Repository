@@ -16,7 +16,7 @@ https://app.compendium.com/api/post_attachments/c5cd8c6b-e5d9-4450-98a2-24b341ae
 
 The above is all that's needed, in the define block of the ViewModel, to load the web-sdk.js.
 
-Note: The 'web-sdk.js' is found in the utilities folder of this Web Component.
+Note: The 'web-sdk.js' should be placed in the utilities folder of this Web Component.
 
 ## Usage
 
