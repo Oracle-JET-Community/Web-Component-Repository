@@ -17,7 +17,7 @@ The Oracle Web SDK ('web-sdk.js') needs to be installed by the application -- an
 As described in the background references above, create a node module, and in path_mapping.json add the following:
 
 ```javascript
- "odaweb": {
+"odaweb": {
   "cdn": "3rdparty",
   "cwd": "node_modules/websdknode",
   "debug": {
