@@ -14,6 +14,7 @@ https://app.compendium.com/api/post_attachments/c5cd8c6b-e5d9-4450-98a2-24b341ae
 
 As described above, create a node module, and in path_mapping.json:
 
+```javascript
  "odaweb": {
   "cdn": "3rdparty",
   "cwd": "node_modules/websdknode",
@@ -28,6 +29,7 @@ As described above, create a node module, and in path_mapping.json:
     "cdnPath": ""
   }
 }
+```
 
 The 'web-sdk.js' is found in the utilities folder of this Web Component.
 
