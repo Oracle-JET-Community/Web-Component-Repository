@@ -10,9 +10,11 @@ And read the full instructions here:
 
 https://app.compendium.com/api/post_attachments/c5cd8c6b-e5d9-4450-98a2-24b341ae7414/view
 
-## Installation of web-sdk.js
+## Environment Requirements
 
-As described above, create a node module, and in path_mapping.json:
+The Oracle Web SDK ('web-sdk.js') needs to be installed by the application -- and is referenced as 'odaweb' in the define block of the ViewModel of the Web Component.
+
+As described in the background references above, create a node module, and in path_mapping.json add the following:
 
 ```javascript
  "odaweb": {
@@ -31,7 +33,7 @@ As described above, create a node module, and in path_mapping.json:
 }
 ```
 
-The 'web-sdk.js' is found in the utilities folder of this Web Component.
+Note: The 'web-sdk.js' is found in the utilities folder of this Web Component.
 
 ## Usage
 
