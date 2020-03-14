@@ -4,8 +4,12 @@
  */
 'use strict';
 define(
-        ['odaweb', 'knockout', 'ojL10n!./resources/nls/my-pasta-chat-strings', 'ojs/ojcontext', 'ojs/ojknockout'],
-        function (odaweb, ko, componentStrings, Context) {
+        ['knockout', 
+         'ojL10n!./resources/nls/my-pasta-chat-strings', 
+         'ojs/ojcontext', 
+         'odaweb',
+         'ojs/ojknockout'],
+        function (ko, componentStrings, Context, odaweb) {
 
             function ExampleComponentModel(context) {
                 var self = this;
