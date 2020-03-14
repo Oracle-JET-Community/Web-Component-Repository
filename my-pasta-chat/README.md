@@ -1,8 +1,8 @@
-# ojet component template
+# my-pasta-chat
 
 ## Background
 
-Watch this:
+Watch this (it takes two minutes):
 
 https://www.youtube.com/watch?v=1tmzmhK6wNA
 
@@ -10,11 +10,14 @@ And read the full instructions here:
 
 https://app.compendium.com/api/post_attachments/c5cd8c6b-e5d9-4450-98a2-24b341ae7414/view
 
-## Installation of web-sdk.js
+## Environment Requirements
 
-As described above, create a node module, and in path_mapping.json:
+The Oracle Web SDK ('web-sdk.js') needs to be installed by the application -- and is referenced as 'odaweb' in the define block of the ViewModel of the Web Component.
 
- "odaweb": {
+As described in the background references above, create a node module, and in path_mapping.json add the following:
+
+```javascript
+"odaweb": {
   "cdn": "3rdparty",
   "cwd": "node_modules/websdknode",
   "debug": {
@@ -28,12 +31,16 @@ As described above, create a node module, and in path_mapping.json:
     "cdnPath": ""
   }
 }
+```
 
-The 'web-sdk.js' is found in the utilities folder of this Web Component.
+Note: The 'web-sdk.js' is found in the utilities folder of this Web Component.
 
 ## Usage
 
-In appController.js, add this to the end of the define block:
+1. Download the content of my-pasta-chat into a folder 'src/js/jet-composites/my-pasta-chat'.
+
+2. In appController.js, add this to the end of the define block:
 
 'my-pasta-chat/loader'
 
+3. Run ojet serve and you will find the chat is available throughout the application.
